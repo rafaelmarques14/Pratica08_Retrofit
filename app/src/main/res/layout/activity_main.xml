@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_city"
+        android:layout_width="278dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="116dp"
+        android:ems="10"
+        android:hint="@string/edit_city"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="81dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:onClick="buttonOkClick"
+        android:text="OK"
+        app:layout_constraintStart_toEndOf="@+id/edit_city"
+        tools:layout_editor_absoluteY="146dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
